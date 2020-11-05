@@ -1,0 +1,24 @@
+{
+  "cursos": [
+    {
+      "id": 1,
+      "name": "Urgency",
+      "description": "Destinado a internos e jovens médicos, este produto se destaca ao basear-se em metodologias ativas, contando com o único simulador de urgências do mercado. Percorra jornadas exclusivas, entrevistas, questões e aprenda as melhores condutas para a urgência e emergência, mitigando inseguranças."
+    },
+    {
+      "id": 2,
+      "name2": "Student",
+      "description2": "Destinado a estudantes de medicina, ofereceremos aqui uma suíte completa para o aprendizado de todos os grandes pilares da medicina, desde as ciências básicas, até os protocolos de atendimento de urgência. Nossa metodologia promove o foco e uma visão global: você contará com podcasts, infográficos, flashcards e muito mais!"
+    },
+    {
+      "id": 3,
+      "name3": "Specialist",
+      "description3": "Desenvolvida para médicos, a SimSave Med traz conteúdos multidisciplinares que se apresentam em categorias abrangendo desde o acadêmico de medicina até o médico especialista. Possibilitando nosso aluno escolher qual modalidade se encaixa melhor em seu momento na carreira médica."
+    },
+    {
+      "id": 4,
+      "name4": "Nursing",
+      "description4": "Para enfermeiros que desejam destacar-se no mercado pela competência e atualização. Navegue por conteúdos desenvolvidos por profissionais referência que, além do conhecimento técnico, oferecem conhecimento prático, científico, certificações e instrução para futuros gestores e empreendedores na área da saúde. Garanta seu conhecimento de excelência!"
+    }
+  ]
+}

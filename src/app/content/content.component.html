@@ -1,0 +1,111 @@
+<div>
+  <img height="100%" width="100%" src="../assets/banner.png" alt="Banner" />
+</div>
+
+
+<div>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+
+        <div class="tableDiv" *ngFor="let curso of cursos">
+          <h3 class="h3Vermelho">{{ curso.name }}</h3>
+          <p>{{ curso.description }}</p>
+        </div>
+
+
+        <div class="cardBottom">
+          <button class="buttonCad">
+            <p class="h3Vermelho">Saiba Mais</p>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="column">
+      <div class="card">
+
+        <div class="tableDiv" *ngFor="let curso of cursos">
+          <h3 class="h3Azul">{{ curso.name2 }}</h3>
+          <p>{{ curso.description2 }}</p>
+        </div>
+
+        <div class="cardBottom">
+          <button class="buttonCad">
+            <p>Em Breve</p>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <div class="column">
+      <div class="card">
+
+        <div class="tableDiv" *ngFor="let curso of cursos">
+          <h3 class="h3Roxo">{{ curso.name3 }}</h3>
+          <p>{{ curso.description3 }}</p>
+        </div>
+
+        <div class="cardBottom">
+          <button class="buttonCad">
+            <p>Em Breve</p>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="column">
+      <div class="card">
+
+        <div class="tableDiv" *ngFor="let curso of cursos">
+          <h3 class="h3Verde">{{ curso.name4 }}</h3>
+          <p>{{ curso.description4 }}</p>
+        </div>
+
+        <div class="cardBottom">
+          <button class="buttonCad">
+            <p class="h3Verde">Saiba Mais</p>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class='midBlue'>
+  </div>
+
+
+
+  <!-- Footer -->
+
+
+  <div class="assinante">
+    <h1 class="display-3">Ainda não é assinante?</h1>
+    <p>Cadastre-se gratuitamente e descubra como vários de profissionais da área da saúde estão aprimorando seus
+      estudos através do método inovador SimSave.</p>
+    <a href="/login">
+      <button class="buttonCad">
+        <b>
+          <p class="h3Azul">Cadastre-se</p>
+        </b>
+      </button>
+    </a>
+  </div>
+
+  <div>
+    <img height="100%" width="100%" src='../assets/imgsBotao.png' />
+  </div>
+
+
+
+</div>

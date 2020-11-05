@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="cadTop">
+    <div class="imaIco">
+      <a href="/"><img src='../assets/LogoSimSaveBranco.png' alt="Logo" class="imgLogin" href="/login" /></a>
+    </div>
+  
+</div>
+
+<div class="cadEntrar">
+  <h1 class="titlePlat">Entrar na plataforma</h1>
+  <p class="descPlat">Digite seu e-mail e senha abaixo para entrar na plataforma.</p>
+
+    <input [(ngModel)]="usuario.nome" type="text" id="nome" placeholder="Nome" class="validate"/>
+    <input [(ngModel)]="usuario.senha" type="password" id="senha" placeholder="Senha" class="validate"/>
+
+    <div style="text-align: center;">
+      <input class="entrarLogin" type="submit" value="Enviar" (click)="fazerLogin()" name="action"/>
+    </div>
+
+</div>
+
+<div class="cadBot"></div>
+</div>
